@@ -51,9 +51,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 
+$route['pics/Bees'] = 'pics/view/Bees';
+$route['pics/Butterflies'] = 'pics/view/Butterflies';
+$route['pics/Buttercups'] = 'pics/view/Buttercups';
 
 $route['pics/(:any)'] = 'pics/view/$1';
 $route['pics'] = 'pics';
+
+
 
 $route['news/create'] = 'news/create'; // it is above any if a person had a news item called create, we run create as a method before anything else
 $route['news/(:any)'] = 'news/view/$1'; //needs to be at the top to work
