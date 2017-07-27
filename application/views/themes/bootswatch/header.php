@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<title><?=$this->config->item('title')?></title>
+	<title>Flickr API Exercise</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--Bootstrap themes use style settings to change look and feel -->
     <link rel="stylesheet" href="<?=base_url()?>public/themes/bootswatch/css/<?=$this->config->item('style')?>" media="screen"><!--amelia theme-->
@@ -28,7 +28,7 @@
 			<li><?=anchor('pics/Bees','Bees')?></li>
 			<li><?=anchor('pics/Butterflies','Butterflies')?></li>
 			<li><?=anchor('pics/Buttercups','Buttercups')?></li>
-          </ul>
+        </ul>
         </div>
       </div>
     </div>

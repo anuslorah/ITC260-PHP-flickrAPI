@@ -25,7 +25,7 @@ class Pics_model extends CI_Model {
         $api_key = 'f4acfc86c234949c5e729be75eaed321';
         //$tags = 'bears,polar';
 
-        $perPage = 4;
+        $perPage = 25;
         $url = 'https://api.flickr.com/services/rest/?method=flickr.photos.search';
         $url.= '&api_key=' . $api_key;
         $url.= '&tags=' . $tags;
