@@ -51,9 +51,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 
-$route['pics/Bees'] = 'pics/view/Bees';
-$route['pics/Butterflies'] = 'pics/view/Butterflies';
-$route['pics/Buttercups'] = 'pics/view/Buttercups';
+//$route['pics/Bees'] = 'pics/view/Bees';
+//$route['pics/Butterflies'] = 'pics/view/Butterflies';
+//$route['pics/Buttercups'] = 'pics/view/Buttercups';
 
 $route['pics/(:any)'] = 'pics/view/$1';
 $route['pics'] = 'pics';
